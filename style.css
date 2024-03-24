@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,21 +92,34 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
@@ -48,83 +129,102 @@ table {
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #1f2937;
-    color: #f9faf8;
-    padding: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #1f2937;
+	color: #f9faf8;
+	padding: 32px;
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: bold;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 .header-links {
-    display: flex;
-    gap: 16px;
-    cursor: pointer;
-    font-size: 18px;
+	display: flex;
+	gap: 16px;
+	cursor: pointer;
+	font-size: 18px;
 }
 
 .hero-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #1f2937;
-    padding: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #1f2937;
+	padding: 32px;
 }
 
-.hero-main-left  {
-    color: #f9faf8;
+.hero-main-left {
+	color: #f9faf8;
 }
 
 .hero-main-left h1 {
-    font-size: 48px;
-    font-weight:900;
+	font-size: 48px;
+	font-weight: 900;
 }
 
 .hero-main-left p {
-    font-size: 18px;
-    color: #e5e7eb;
-    margin: 16px 0;
+	font-size: 18px;
+	color: #e5e7eb;
+	margin: 16px 0;
 }
 
 .hero-main-left button {
-    background-color: #3882f6;
-    color: #e5e7eb;
-    padding: 10px 25px;
-    border-radius: 8px;
-    cursor: pointer;
+	background-color: #3882f6;
+	color: #e5e7eb;
+	padding: 10px 25px;
+	border-radius: 8px;
+	cursor: pointer;
 }
 
 .hero-main-right img {
-    width: 800px;
-    height: 500px;
+	width: 800px;
+	height: 500px;
 }
 
-.information h1{
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
-    text-align: center;
-    margin: 36px 0;
+.information h1 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+	text-align: center;
+	margin: 36px 0;
 }
 
 .information-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
 }
 
-.info-container img{
-    width: 200px;
-    height: 200px;
+.info-container img {
+	width: 200px;
+	height: 200px;
 }
 
 .info-container p {
-    text-align: center;
-    font-size: 18px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.quote {
+	background-color: #e5e7eb;
+	margin: 50px 0;
+	padding: 100px;
+}
+
+.quote h2 {
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+	text-align: center;
+}
+
+.quote p {
+	font-size: 24px;
+	text-align: right;
+	margin-right: 150px;
 }
