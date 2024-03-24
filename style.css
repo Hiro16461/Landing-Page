@@ -65,4 +65,41 @@ table {
     display: flex;
     gap: 16px;
     cursor: pointer;
+    font-size: 18px;
+}
+
+.hero-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 32px;
+}
+
+.hero-main-left  {
+    color: #f9faf8;
+}
+
+.hero-main-left h1 {
+    font-size: 48px;
+    font-weight:900;
+}
+
+.hero-main-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 16px 0;
+}
+
+.hero-main-left button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-main-right img {
+    width: 800px;
+    height: 500px;
 }
