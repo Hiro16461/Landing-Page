@@ -228,3 +228,39 @@ table {
 	text-align: right;
 	margin-right: 150px;
 }
+
+.action {
+	width: 80%;
+	background-color: #3882f6;
+	margin: 50px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	gap: 100px;
+	border-radius: 8px;
+}
+
+.action-left {
+	color: #f9faf8;
+}
+
+.action-left h1 {
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.action-left p {
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+.action-right button {
+	background-color: #3882f6;
+	color: #f9faf8;
+    border-color: #f9faf8;
+	padding: 10px 25px;
+	border-radius: 8px;
+	cursor: pointer;
+    border: 1px solid #f9faf8;
+}
